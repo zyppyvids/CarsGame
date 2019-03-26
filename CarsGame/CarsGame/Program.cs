@@ -64,6 +64,8 @@ namespace CarsGame
         /// </summary>
         public static void SetUpConsole()
         {
+            //Makes background white
+            BackgroundColor = ConsoleColor.White;
             //Hides cursor
             CursorVisible = false;
         }
